@@ -14,7 +14,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background-color: #6B8E23; /* Dark sage green */
+    background-color: #2F4F2F; /* Dark green */
     color: #F5F5DC; /* Beige text */
     padding: 1rem 0;
     position: fixed;
@@ -37,48 +37,79 @@ nav {
     font-weight: bold;
 }
 
-nav ul {
+.nav-links {
     display: flex;
+    gap: 2rem;
     list-style: none;
 }
 
-nav ul li {
-    margin-left: 2rem;
-}
-
-nav ul li a {
+.nav-links a {
     color: #F5F5DC;
     text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.02em;
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #333;
+.nav-links a:hover {
+    color: #E8E8CC;
+}
+
+.download-button {
+    background-color: #F5F5DC;
+    color: #2F4F2F;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+    background-color: #E8E8CC;
+    transform: translateY(-1px);
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #6B8E23 0%, #8FBC8F 100%);
-    color: #F5F5DC;
+    background-color: #FFFFFF;
+    color: #111111;
     padding: 100px 0 80px;
     text-align: center;
 }
 
+.hero-content {
+    text-align: center;
+}
+
 .hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 3.6rem;
+    margin-bottom: 1.5rem;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
     animation: fadeInUp 1s ease-out;
+    color: #111111;
+}
+
+.hero-content h1 .highlight-text {
+    color: #2F4F2F;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: 1.15rem;
+    margin: 0 auto 1.75rem;
+    max-width: 720px;
+    line-height: 1.6;
     animation: fadeInUp 1s ease-out 0.3s both;
+    color: #333333;
 }
 
 .cta-button {
     background-color: #F5F5DC;
-    color: #6B8E23;
+    color: #2F4F2F;
     border: none;
     padding: 0.8rem 2rem;
     font-size: 1rem;
