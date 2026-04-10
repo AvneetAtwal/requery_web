@@ -268,7 +268,7 @@ h2 {
 }
 
 .download-strip-inner {
-    background: linear-gradient(120deg, var(--red-rust), #be7354 55%, var(--olive-green));
+    background: linear-gradient(120deg, var(--red-rust), #be7354 20%, var(--olive-green));
     color: #fffaf3;
     border-radius: 18px;
     padding: 1.25rem;
