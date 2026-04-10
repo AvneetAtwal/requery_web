@@ -3,31 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Requery - Intermediate Landing Page</title>
+    <title>ReQuery - Intermediate Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Forum&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">ReQuery</div>
+            <div class="logo"><span class="brand-text">ReQuery</span></div>
             <div class="nav-links">
                 <a href="#overview">Overview</a>
-                <a href="#why">Why ReQuery</a>
+                <a href="#why">Why <span class="brand-text">ReQuery</span></a>
                 <a href="#download">Download</a>
             </div>
-            <button class="download-button">Download</button>
+            <a href="#download" class="download-button">Download</a>
         </nav>
     </header>
 
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Re-think how you<br><span class="highlight-text">query your data</span></h1>
-            <p>ReQuery is a powerful, lightweight query tool that lets you explore, filter, and transform your data with an intuitive interface — no boilerplate, no friction.</p>
+            <p><span class="brand-text">ReQuery</span> is a powerful, lightweight query tool that lets you explore, filter, and transform your data with an intuitive interface - no boilerplate, no friction.</p>
+            <div class="hero-pills">
+                <span>Local-first</span>
+                <span>Fast results</span>
+                <span>Zero noise</span>
+            </div>
             <a href="#why" class="cta-button">Get Started</a>
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="overview" class="about">
         <div class="container">
             <h2>About Us</h2>
             <p>We are a team of passionate developers creating intermediate-level web experiences. Our focus is on clean design, functionality, and user experience.</p>
@@ -50,8 +59,8 @@
 
     <section id="why" class="services">
         <div class="container">
-            <h2>Why ReQuery?</h2>
-            <p class="section-intro">Built for developers and analysts who need speed, clarity, and control — without the overhead.</p>
+            <h2>Why <span class="brand-text">ReQuery</span>?</h2>
+            <p class="section-intro">Built for developers and analysts who need speed, clarity, and control - without the overhead.</p>
             <div class="service-grid">
                 <div class="service-card">
                     <p class="service-icon">⚡</p>
@@ -71,7 +80,7 @@
                 <div class="service-card">
                     <p class="service-icon">🔒</p>
                     <h3>Privacy First</h3>
-                    <p>Your queries and credentials never leave your machine. ReQuery runs fully locally with no cloud dependency.</p>
+                    <p>Your queries and credentials never leave your machine. <span class="brand-text">ReQuery</span> runs fully locally with no cloud dependency.</p>
                 </div>
                 <div class="service-card">
                     <p class="service-icon">📤</p>
@@ -87,11 +96,24 @@
         </div>
     </section>
 
+    <section id="download" class="download-strip">
+        <div class="container download-strip-inner">
+            <div>
+                <h2>Start with <span class="brand-text">ReQuery</span></h2>
+                <p>Download the latest build, open your first source, and run your first query in under two minutes.</p>
+            </div>
+            <div class="download-actions">
+                <a class="cta-button" href="#">Download for Desktop</a>
+                <a class="outline-button" href="#">View Docs</a>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="footer-row">
             <div class="footer-item footer-left"><a href="https://requery.ca">requery.ca</a></div>
-            <div class="footer-item footer-center">&copy; 2026 ReQuery. All rights reserved.</div>
-            <div class="footer-item footer-right">ReQuery</div>
+            <div class="footer-item footer-center">&copy; 2026 <span class="brand-text">ReQuery</span>. All rights reserved.</div>
+            <div class="footer-item footer-right"><span class="brand-text">ReQuery</span></div>
         </div>
     </footer>
 
