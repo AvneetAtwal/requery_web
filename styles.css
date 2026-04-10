@@ -8,14 +8,14 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #F5F5DC; /* Beige background */
+    color: #303727; /* Deep Green text */
+    background-color: #f4e9d7; /* Soft Beige background */
 }
 
 /* Header and Navigation */
 header {
-    background-color: #2F4F2F; /* Dark green */
-    color: #F5F5DC; /* Beige text */
+    background-color: #303727; /* Deep Green */
+    color: #f4e9d7; /* Soft Beige text */
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -44,7 +44,7 @@ nav {
 }
 
 .nav-links a {
-    color: #F5F5DC;
+    color: #f4e9d7;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 0.02em;
@@ -52,12 +52,12 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #E8E8CC;
+    color: #fff9f0;
 }
 
 .download-button {
-    background-color: #F5F5DC;
-    color: #2F4F2F;
+    background-color: #4f573f; /* Olive Green */
+    color: #f4e9d7;
     border: none;
     padding: 0.75rem 1.5rem;
     font-size: 0.95rem;
@@ -68,14 +68,14 @@ nav {
 }
 
 .download-button:hover {
-    background-color: #E8E8CC;
+    background-color: #a55e40; /* Red Rust */
     transform: translateY(-1px);
 }
 
 /* Hero Section */
 .hero {
-    background-color: #FFFFFF;
-    color: #111111;
+    background-color: #f4e9d7;
+    color: #303727;
     padding: 100px 0 80px;
     text-align: center;
 }
@@ -91,11 +91,11 @@ nav {
     margin-left: auto;
     margin-right: auto;
     animation: fadeInUp 1s ease-out;
-    color: #111111;
+    color: #303727;
 }
 
 .hero-content h1 .highlight-text {
-    color: #2F4F2F;
+    color: #a55e40;
 }
 
 .hero-content p {
@@ -104,12 +104,12 @@ nav {
     max-width: 720px;
     line-height: 1.6;
     animation: fadeInUp 1s ease-out 0.3s both;
-    color: #333333;
+    color: #4f573f;
 }
 
 .cta-button {
-    background-color: #F5F5DC;
-    color: #2F4F2F;
+    background-color: #a55e40;
+    color: #f4e9d7;
     border: none;
     padding: 0.8rem 2rem;
     font-size: 1rem;
@@ -120,7 +120,7 @@ nav {
 }
 
 .cta-button:hover {
-    background-color: #E8E8CC;
+    background-color: #4f573f; /* Olive Green */
     transform: translateY(-2px);
 }
 
@@ -139,12 +139,12 @@ h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #2F4F2F;
+    color: #a55e40;
 }
 
 /* About Section */
 .about {
-    background-color: #F5F5DC;
+    background-color: #f4e9d7;
 }
 
 .features {
@@ -160,8 +160,8 @@ h2 {
     text-align: center;
     padding: 1rem;
     margin: 1rem;
-    background-color: #2F4F2F;
-    color: #F5F5DC;
+    background-color: #4f573f;
+    color: #f4e9d7;
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
@@ -172,13 +172,13 @@ h2 {
 
 /* Services Section */
 .services {
-    background-color: #FFFFFF;
-    color: #F5F5DC;
+    background-color: #f4e9d7;
+    color: #303727;
 }
 
 .section-intro {
     text-align: center;
-    color: #111111;
+    color: #4f573f;
     max-width: 760px;
     margin: 0.75rem auto 1.5rem;
     font-size: 1.05rem;
@@ -193,12 +193,14 @@ h2 {
 }
 
 .service-card {
-    background-color: #2F4F2F;
+    background-color: #303727;
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
+    color: #f4e9d7;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .service-icon {
     font-size: 2rem;
@@ -212,7 +214,7 @@ h2 {
 
 /* Contact Section */
 .contact {
-    background-color: #F5F5DC;
+    background-color: #f4e9d7;
 }
 
 #contact-form {
@@ -226,14 +228,14 @@ h2 {
 #contact-form textarea {
     margin-bottom: 1rem;
     padding: 0.8rem;
-    border: 1px solid #2F4F2F;
+    border: 1px solid #4f573f;
     border-radius: 5px;
     font-size: 1rem;
 }
 
 #contact-form button {
-    background-color: #2F4F2F;
-    color: #F5F5DC;
+    background-color: #4f573f;
+    color: #f4e9d7;
     border: none;
     padding: 0.8rem;
     font-size: 1rem;
@@ -243,13 +245,13 @@ h2 {
 }
 
 #contact-form button:hover {
-    background-color: #2F4F2F;
+    background-color: #a55e40;
 }
 
 /* Footer */
 footer {
-    background-color: #2F4F2F;
-    color: #F5F5DC;
+    background-color: #303727;
+    color: #f4e9d7;
     padding: 1rem 2rem;
 }
 
@@ -268,7 +270,7 @@ footer {
 }
 
 .footer-left a {
-    color: #F5F5DC;
+    color: #f4e9d7;
     text-decoration: none;
 }
 

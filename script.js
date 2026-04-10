@@ -12,28 +12,6 @@ document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form submission handling
-document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // Get form data
-    const formData = new FormData(this);
-    const name = formData.get('name') || this.querySelector('input[type="text"]').value;
-    const email = formData.get('email') || this.querySelector('input[type="email"]').value;
-    const message = formData.get('message') || this.querySelector('textarea').value;
-    
-    // Simple validation
-    if (name && email && message) {
-        // In a real application, you would send this data to a server
-        alert(`Thank you, ${name}! Your message has been sent. We'll get back to you at ${email} soon.`);
-        
-        // Clear the form
-        this.reset();
-    } else {
-        alert('Please fill in all fields.');
-    }
-});
-
 // Add some interactive effects
 document.addEventListener('DOMContentLoaded', function() {
     // Add fade-in effect to sections on scroll
